@@ -1,0 +1,38 @@
+Python
+-------
+>> Python is a High-level, Interpretted and Object Oriented Programming Language.
+
+Compilation ---> compiler translates the entire program into machine code before execution. Ex: Java, C..
+Interpretation --> Interpretter translates and executes the code line by line. Ex: Python
+
+print
+-------
+>> prints a data at the output.
+print(data)
+
+Extension for python file ---> .py 
+command to execute a python file --> "python filname.py"
+
+Syntax of Python 
+-----------------
+>> python is case-sensitive.(a is not equal to A)
+>> Indentation matters. (white spaces before a line of code)
+>> python is dynamically typed language.
+
+Comments 
+---------
+Single line comments --> #
+Multiple line comments --> '''  comment  '''
+
+Variables
+----------
+>> a name that stores a data.
+varName=data
+
+
+Datatypes 
+----------
+Integer --> whole number. Ex: -4,-3,-43,0,1,2,3
+Float --> Decimal number. Ex: 3.14
+String --> sequence of char wrapped with either '' or ""
+Boolean --> True or False
