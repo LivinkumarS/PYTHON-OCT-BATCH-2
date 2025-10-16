@@ -10,6 +10,13 @@ print
 >> prints a data at the output.
 print(data)
 
+input
+-----
+>> prompt input from user.
+>> always return string value
+input(str)
+
+
 Extension for python file ---> .py 
 command to execute a python file --> "python filname.py"
 
@@ -26,13 +33,32 @@ Multiple line comments --> '''  comment  '''
 
 Variables
 ----------
->> a name that stores a data.
+>> It is a named storage that holds value in a memory.
 varName=data
 
+Naming Rules:
+-------------
+>> It can contain letters, digits and underscores (_)
+>> It can start with letter or _
+>> It cannot be a reserved keyword.
 
 Datatypes 
 ----------
 Integer --> whole number. Ex: -4,-3,-43,0,1,2,3
 Float --> Decimal number. Ex: 3.14
+
 String --> sequence of char wrapped with either '' or ""
+concatination --> attaching strings together --> +
+String Formatting --> f" {var1}. {var2}........ "
+
+
 Boolean --> True or False
+
+Type casting 
+------------
+type(obj)---> finds the datatype of an obj. 
+
+int() --> convert into integer
+str()  --> convert into string 
+float()  --> convert into float
+
