@@ -62,3 +62,49 @@ int() --> convert into integer
 str()  --> convert into string 
 float()  --> convert into float
 
+Operators
+----------
+34 * 2 = 68
+
+* ---> operator 
+34, 2 --> operands 
+68 --> result 
+
+>> Operator is a symbol that performs an operation on one or more operands.
+
+Arithmetic Operators 
+---------------------
+Additon ---> +
+Subtraction ---> -
+Multiplication --> *
+Division ---> /
+Floor Division --> //
+Modulus --> % (reminder)
+Exponentiation --> ** Ex: 2**2--> 2 power 2 --> 4
+
+(BODMAS) 
+
+Comparison Operators
+--------------------
+>> Used to compare two values. They return Boolean Value.
+
+== --> equal
+!= --> not equal
+< --> lesser than
+> --> greater than
+<= --> lesser than or equal
+>= --> greater than or equal
+
+Assignment Operators 
+----------------------
+= --> assign
++= --> add and assign
+-= --> sub and assign
+*= --> mul and assign 
+/= --> div and assign 
+//= floor div and assign
+%= mod and assign 
+**= expo and assign
+
+Logical Operators 
+------------------
