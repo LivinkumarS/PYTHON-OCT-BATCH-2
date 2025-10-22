@@ -107,4 +107,21 @@ Assignment Operators
 **= expo and assign
 
 Logical Operators 
-------------------
+------------------ (Boolean --> Boolean)
+AND --> and --> True if both are true.
+OR  --> or  --> True if any one is true.
+NOT --> not --> Reverses boolean result. True --> False 
+
+Bitwise operators 
+-----------------
+>> Operate on binary representation of integers.
+AND --> & --> and operation between bits. Ex: 7&16
+OR --> | --> or operation between bits. 7 | 16
+XOR --> ^ --> X-OR operation between bits. 8 ^ 10
+
+NOT --> ~ --> not operation with bits. Ex: ~7 (~n=-(n+1))
+negative number --> 2's complement of absolute number
+2's comp --> 1's comp(reversing bit) + 1
+
+left shift --> moving bits towards left. <<. ex: 12<<2.
+right shift --> moving bits towards right. >>. ex: 12>>2.
