@@ -125,3 +125,27 @@ negative number --> 2's complement of absolute number
 
 left shift --> moving bits towards left. <<. ex: 12<<2.
 right shift --> moving bits towards right. >>. ex: 12>>2.
+
+
+Control Flow
+-------------
+>> Control flow determines the order in which statements are executed in a program.
+
+Conditional statements
+-----------------------
+if condition:
+    block of code 
+True --> executes the block of code. False --> Ignore the block of code.
+elif condidion:
+    block of code.
+else:
+    block code 
+
+Nested If 
+----------
+>> If block inside another if block.
+
+if cond1:
+    if cond2:
+        print("Hello")
+
