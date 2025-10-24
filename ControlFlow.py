@@ -65,7 +65,7 @@
 #     print("Grade: Fail")
 # else:
 #     print("Invalid marks! Please enter between 0 to 100.")
-
+ 
 a=17
 
 if a<10:

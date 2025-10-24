@@ -127,6 +127,14 @@ left shift --> moving bits towards left. <<. ex: 12<<2.
 right shift --> moving bits towards right. >>. ex: 12>>2.
 
 
+Iterable
+---------
+An iterable object is any python object that can return its members one at a time.
+Ex: String.
+"Hello world" ---> 'H','e'
+index number ---> starts with 0. iterableObj[ind]
+
+
 Control Flow
 -------------
 >> Control flow determines the order in which statements are executed in a program.
@@ -149,3 +157,36 @@ if cond1:
     if cond2:
         print("Hello")
 
+Loops 
+--------
+>> Loops is used to repeat a block of code multiple times until a condition met or an iterable is exhausted.
+
+For loop 
+While Loop 
+
+While Loop 
+------------
+while condition:
+    block of code
+
+>> As long as the condition is True it will keep executing the block of code.
+>> number of iteration is not known.
+
+For Loop 
+---------
+>> It is used to iterate over a sequence(like string, list, tuple.....)
+>>When the number of iteration is known
+
+for var in sequence:
+    block of code
+
+Range ---> used to create a temporary iterable object.
+-------------------------------------------------------
+range(10) ---> [0,1,2,3,4,5,6,7,8,9]
+range(start,end) ---> range(10,20) --> [10,11....19]
+range(start,end,step) --> range(10,20,2) -->[10,12,14,16,18]
+
+Control statements 
+-------------------
+Break --> it will just break the loop
+Continue --> It will skip the current iteration
