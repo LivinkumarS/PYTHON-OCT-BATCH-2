@@ -130,7 +130,7 @@ right shift --> moving bits towards right. >>. ex: 12>>2.
 Iterable
 ---------
 An iterable object is any python object that can return its members one at a time.
-Ex: String.
+Ex: String, List, iterable object
 "Hello world" ---> 'H','e'
 index number ---> starts with 0. iterableObj[ind]
 
@@ -190,3 +190,61 @@ Control statements
 -------------------
 Break --> it will just break the loop
 Continue --> It will skip the current iteration
+
+Data structures --> List, Tuple, Set, Dict
+-----------------------------------------
+List (iterable object)
+-----
+>> It is an ordered, mutable and indexed collection of elements.
+>> [] --> allows duplicate
+--> Ordered: The elements have a fixed position (index).
+
+[ele1, ele2, ele3......]
+
+In-built methods 
+-------------------
+.append(ele) --> adds an element at thhe end
+.extend(ele1,ele2.....)--> adds multiple element at the end.
+.insert(pos, ele) ---> adds element at the specified position
+.remove(ele) --> it removes the specified elements from a list(first occurance)
+.pop(ind) ---> removes an element by its index number
+.pop() --> removes last element
+.clear() --> removes everyting.
+.index(ele) --> finds index number of given element
+.count(ele) --> finds number of occurances
+.sort() --> arrange list in ascending order
+.reverse()
+
+Tuple 
+------
+>>A tuple is an ordered, immutable sequence of items.
+>> (ele1,ele2....) allows duplicates
+
+packing/unpacking 
+------------------
+person=('KP Karuppu',28)
+name= person[0]
+age= person[1]
+name,age=person
+
+In built methods
+----------------
+.count(ele)
+.index(ele)
+
+Set 
+-----
+>> It is unordered, mutable and unidexed collection of unique elements.
+{ele1, ele2......} does not allow duplicates.
+
+in built methods
+-----------------
+.add(ele)
+.remove(ele)
+
+.intersection() --> common elements between two sets
+.union() --> all the elements from both sets.
+.difference() --> unique elements in a set
+
+Dict 
+------
