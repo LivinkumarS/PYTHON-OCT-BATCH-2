@@ -272,3 +272,32 @@ In built methods
 .keys() --> returns every key from dict.
 .values()
 .items() --> returns keay-values pairs.Ex: [(key1,value1),(key2,value)...]
+
+
+Functions and Scopes 
+---------------------
+>> It is a block of code that performs a specfic task and can be reused multiple times.
+
+>> In built Functions
+>> User Defined Functions.
+
+def fnName():
+    block of code
+
+calling --> fnName()
+
+Parameters and Arguements 
+-----------------------------
+P -> variables that we create while defining a function.
+A -> the values we are passing to those variables
+
+Positional Arguements --> Order matters
+Keyword arguement --> assigning value by mentioning the Parameters name 
+Default Arguements --> assigning default value to Parameter while creating a function
+
+Return Keyword 
+---------------
+>> stop a function 
+>> return a data to the caller
+
+Scopes 
