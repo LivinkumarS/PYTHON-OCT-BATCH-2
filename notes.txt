@@ -301,3 +301,13 @@ Return Keyword
 >> return a data to the caller
 
 Scopes 
+-------
+>> Scope refers to the region of the program where a variable is recognized and accessible.
+
+Local scope 
+-------------
+>> A variable created inside a function is local -- it exists only while the function runs.
+
+Global
+--------
+A variable declared outside any function is Global. can be accessed anywhere

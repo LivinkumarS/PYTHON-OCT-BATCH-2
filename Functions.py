@@ -37,7 +37,16 @@
 
 # print(findSum(1,2,3))
 
-def findProduct(a,b):
-    return a*b
+# def findProduct(a,b):
+#     return a*b
 
-print(findProduct(2,findProduct(4,findProduct(3,2))))
+# print(findProduct(2,findProduct(4,findProduct(3,2))))
+
+a=15
+
+def dummy():
+    a=10 #(local overrides global)
+    print("A's value from inside the function: ",a)
+
+dummy()
+print("A's value from outside the function: ",a)
