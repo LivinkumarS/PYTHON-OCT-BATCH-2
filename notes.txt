@@ -349,3 +349,44 @@ Local scope
 Global
 --------
 A variable declared outside any function is Global. can be accessed anywhere
+
+Errors:
+---------
+>> Error is something that stops program from executing properly.
+
+Syntax Error:
+--------------
+>> it occurs when the structure of python code is invalid.
+Ex: IndentationError.
+
+Runtime Errors (Exceptions)
+---------------------------
+These Error Occurs while the program is running. It occurs when the code is syntactically correct but fails during execution.
+Ex: TypeError, ZeroDivisionError, ValueError
+
+Exception Handling 
+--------------------
+try:
+    block of code
+except errorName:
+    block of code
+finally:
+    block code
+
+Logical Error
+--------------
+>> These don't cause a crash --> But produces incorrect results(wrong logic)
+
+File Handling 
+--------------
+to opean a file --> open('path',mode)
+
+To read contents --> .read()
+To read line by line --> .readline()
+To fetch all the lines as a list --> .readlines()
+
+To Over write --> write(content)
+
+'r' --> read 
+'w' --> write (over write)
+'a' --> append
