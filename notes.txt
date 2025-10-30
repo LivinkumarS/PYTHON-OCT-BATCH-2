@@ -48,9 +48,44 @@ Integer --> whole number. Ex: -4,-3,-43,0,1,2,3
 Float --> Decimal number. Ex: 3.14
 
 String --> sequence of char wrapped with either '' or ""
-concatination --> attaching strings together --> +
-String Formatting --> f" {var1}. {var2}........ "
 
+
+String Operations 
+-----------------
+concatination --> attaching strings together --> +
+repetion --> *  
+Membership ---> in, not (boolean) 
+
+In built methods for strings 
+------------------------------
+.upper(str) ---> converts a str into uppercase
+.lower(str) ---> converts a str into lowercase
+.title() --> converts every first letter of word into uppercase
+.capitalize()
+
+Searching and counting 
+.count(subStr) --> counts the number of occurance
+.find(subStr) --> finds index. -1 (not occured)
+
+replacing 
+.replace(old,new) 
+
+splitting and joining
+str ---> list .split(char)
+list ---> str  str.join(lis)
+
+trimming 
+.strip(str) --> white spaces at beg and end
+
+Validation methods 
+.isalpha()--> 'animal1&'
+.isdigit()--> '123'
+.isalnum()
+.isupper()
+.islower()
+
+String Formatting --> f" {var1}. {var2}........ "
+string is immutable
 
 Boolean --> True or False
 
@@ -137,6 +172,9 @@ An iterable object is any python object that can return its members one at a tim
 Ex: String, List, iterable object
 "Hello world" ---> 'H','e'
 index number ---> starts with 0. iterableObj[ind]
+
+Membership ---> in, not (boolean) 
+len(iterableObj) ---> returns length of obj.
 
 Indexing and Slicing 
 ----------------------
