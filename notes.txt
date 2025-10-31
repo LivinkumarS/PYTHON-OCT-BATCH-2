@@ -390,3 +390,16 @@ To Over write --> write(content)
 'r' --> read 
 'w' --> write (over write)
 'a' --> append
+
+OOP - Object Oriented Programming 
+-----------------------------------
+>> It is a programming pattern based on the concepts of objects, which can contain attributes(data) and methods.
+
+mobile --->  data about it (screen, battery, RAM..)(attributes) ---> turning on, opening app(methods)
+
+Blue print  --->  mob1, mob2.......
+(class)     --->  objects (attributes and methods)
+
+Car---> Attributes(name, typres) --> Methods(start, stop)
+Cat---> Attributes(name,leg) --> Methods(speak)
+
